@@ -5,8 +5,8 @@ lst = []
 n = int(input("Enter number of elements : "))
 
 # iterating till the range
-for i in range(0, n):
-	ele = int(input())
+for i in range(n):
+	ele = int(input("Enter list elements: "))
 
 	lst.append(ele) # adding the element
 list = sorted(lst)
