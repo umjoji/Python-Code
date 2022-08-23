@@ -1,3 +1,4 @@
+# Initiate while loop
 sum = 0
 y = 0
 while y >= 0:
@@ -7,4 +8,5 @@ while y >= 0:
     else:
         sum += y
 
+# Print result
 print(sum)
